@@ -1,0 +1,1 @@
+/home/neo/speech_recg/manage.py

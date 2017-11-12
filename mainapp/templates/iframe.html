@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>SoToTe</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="/static/css/main.css" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<style>
+#outer
+{
+    width:100%;
+    text-align: center;
+}
+.inner
+{
+    display: inline-block;
+}
+p.trans{
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    padding:4px 4px 4px 4px;
+ 
+}
+</style>
+<script>
+function goBack() {
+    window.history.back();
+}
+</script>
+
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt" style="padding:10px 0px 0px 0px;">
+						<span class="logo"><img src="/static/images/logo.png" alt="" style="height:150px;width:500px;"/></span>
+						<h1>SoToTe</h1>
+						<br />
+					</header>
+
+				<!-- Nav -->
+                                        <nav>
+                                        <ul>
+                                                        <button onclick="goBack()">Go Back</button><br>
+                                        </ul>
+                                        </nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Intr ducti n -->
+							<section id="intro" class="main">
+								<div class="spotlight">
+									<div >  <!-- class="content"-->
+										<header class="major">
+											<h2>Translate</h2>
+										</header>
+                                                                      <h3> Language Detected : {{lan}}</h3><br><br>
+                                                                      <h3> Translated Content :</h3>
+									<p class="trans">{{result}}</p>
+                                                                        </div>
+								</div>
+							</section>
+
+					</div>
+
+					<footer id="footer">
+						<section>
+							<h2>About SoToTe</h2>
+							<p>Speech to text utility</p>
+						
+						</section>
+						<section>
+							<h2>Contact Us</h2>
+							<dl class="alt">
+								
+								<p>Phi Beta Kappa</p>
+							</dl>
+							<ul class="icons">
+								<li><a href="#" class="icon fa-twitter alt"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon fa-facebook alt"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon fa-instagram alt"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon fa-github alt"><span class="label">GitHub</span></a></li>
+								<li><a href="#" class="icon fa-dribbble alt"><span class="label">Dribbble</span></a></li>
+							</ul>
+						</section>
+						<p class="copyright">&copy; SoToTe</p>
+					</footer>
+
+				<!-- Footer -->
+			</div>
+
+		<!-- Scripts -->
+			<script src="/static/js/jquery.min.js"></script>
+			<script src="/static/js/jquery.scrollex.min.js"></script>
+			<script src="/static/js/jquery.scrolly.min.js"></script>
+			<script src="/static/js/skel.min.js"></script>
+			<script src="/static/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="/static/js/main.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+
+	</body>
+</html>
