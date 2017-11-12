@@ -20,7 +20,14 @@
 {
     display: inline-block;
 }
-	</style>
+</style>
+
+<script>
+function goBack() {
+    window.history.back();
+}
+</script>
+
 	<body>
 
 		<!-- Wrapper -->
@@ -35,6 +42,7 @@
 
 				<!-- Nav -->
 		                <nav>
+                                      <button onclick="goBack()">Go Back</button><br><br>
                                 </nav>	
 				<!-- Main -->
 					<div id="main" style="width:40%">

@@ -1,1 +1,0 @@
-/home/neo/speech_recg/try_vader.py
